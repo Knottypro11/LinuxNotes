@@ -1,0 +1,18 @@
+##In this portion of the module I was asked to set the variable '$balance'
+
+# List the variables already defined in the shell.
+
+set
+
+# Create new variable: 'balance'
+
+balance=10000
+
+# Run the set command to check if the variable balance has been created.
+set
+
+# At this point the list of recorded variables is so long that it is difficult to comb through
+
+# So I used the pipe command from the previous page
+
+set | grep 'balance'
